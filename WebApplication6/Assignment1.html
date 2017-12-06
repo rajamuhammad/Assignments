@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script>
+
+        function Add()
+        {
+
+            var a = document.createElement("INPUT");
+
+            a.setAttribute("type", "file");
+
+            var b = document.createTextNode("File");
+
+            document.body.appendChild(b);
+            document.body.appendChild(a);
+
+
+
+        }
+
+
+    </script>
+
+</head>
+<body>
+
+    <h1 class="text-center">Assignment No 1</h1>
+
+    <div class="container">
+            <div class="row" style="margin-top:100px;">
+
+
+                    <div class="col-md-12">
+
+
+                        <div class="form-group">
+
+                            <button class="btn btn-danger pull-right" onclick="Add()">+</button>
+
+
+                            <label>
+                                File
+                            </label>
+                            <input class="form-control" type="file" name="name" value=" " />
+
+                        </div>
+
+                    </div>
+
+            </div>
+
+
+
+    </div>
+
+
+</body>
+</html>

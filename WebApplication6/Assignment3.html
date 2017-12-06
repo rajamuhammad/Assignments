@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+
+    <script>
+
+        function myfunction()
+        {
+            var a = document.getElementById('one').value;
+            document.getElementById('two').value = a;
+        }
+       
+        
+
+
+
+    </script>
+</head>
+<body>
+
+
+    <h1 class="text-center">Assignment No 3</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+                
+
+                <label>Text One</label>
+                <input type="text" onkeyup="myfunction()" class="form-control" id="one" name="name" value=" " />
+                <br />
+                <label>Text Two</label>
+                <input type="text" onkeyup="myfunction()" class="form-control" id="two" name="name" value=" " />
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
